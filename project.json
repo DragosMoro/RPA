@@ -1,7 +1,7 @@
 {
   "name": "RpaProject",
   "description": "Blank Process",
-  "main": "Input.xaml",
+  "main": "Business Layers\\Workflow Control\\Input.xaml",
   "dependencies": {
     "UiPath.Excel.Activities": "[2.22.3]",
     "UiPath.Mail.Activities": "[1.12.3]",
@@ -45,8 +45,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Input.xaml",
-      "uniqueId": "bc31fc64-ad2e-46c9-bcc2-d0c662b7ecd5",
+      "filePath": "Business Layers\\Workflow Control\\Input.xaml",
+      "uniqueId": "ef0199ce-db2a-4012-8aca-ed5c0f211745",
       "input": [],
       "output": []
     }

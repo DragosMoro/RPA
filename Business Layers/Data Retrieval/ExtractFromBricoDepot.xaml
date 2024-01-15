@@ -7,7 +7,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1143,4334</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>941,5055</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ExtractFromAtomico_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -94,7 +94,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="ExtractFromBricoDepot" sap:VirtualizedContainerService.HintSize="808,4269" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ExtractFromBricoDepot" sap:VirtualizedContainerService.HintSize="808,4990" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="numberOfProducts">
         <Variable.Default>
@@ -129,37 +129,37 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="766,4177" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+    <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="766,4898" sap2010:WorkflowViewState.IdRef="RetryScope_1">
       <ui:RetryScope.ActivityBody>
         <ActivityAction>
-          <Sequence sap:VirtualizedContainerService.HintSize="724,4001" sap2010:WorkflowViewState.IdRef="Sequence_17">
+          <Sequence sap:VirtualizedContainerService.HintSize="724,4724" sap2010:WorkflowViewState.IdRef="Sequence_17">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="682,4675" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="682,4632" sap2010:WorkflowViewState.IdRef="TryCatch_1">
               <TryCatch.Try>
-                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="644,4229" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="644,4192" sap2010:WorkflowViewState.IdRef="Sequence_16">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Brico Dépôt - It's good to be home. - Brico Dépôt" sap:VirtualizedContainerService.HintSize="602,4137" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Version="V1">
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Edge: Brico Dépôt - It's good to be home. - Brico Dépôt" sap:VirtualizedContainerService.HintSize="602,4100" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Version="V1">
                     <uix:NApplicationCard.Body>
                       <ActivityAction x:TypeArguments="x:Object">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="568,3920" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                        <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="568,3884" sap2010:WorkflowViewState.IdRef="Sequence_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="526,22" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
-                          <uix:NClick ClickType="Single" DisplayName="Click 'INPUT search'" sap:VirtualizedContainerService.HintSize="526,157" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Version="V1">
+                          <uix:NClick ClickType="Single" DisplayName="Click 'INPUT search'" sap:VirtualizedContainerService.HintSize="526,156" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Version="V1">
                             <uix:NClick.Target>
                               <uix:TargetAnchorable BrowserURL="https://www.bricodepot.ro/" DesignTimeRectangle="454, 93, 790, 40" ElementType="InputBox" FriendlyName="'INPUT search'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='Caută' /&gt;" Guid="337b43b4-6dc5-401f-a7e9-29765ad6c9d3" ImageBase64="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" InformativeScreenshot="8e496451061c4f9c01fe2b7a8ad00a25.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='85636114' title='Brico Dépôt - It&amp;apos;s good to be home. - Brico Dépôt' /&gt;" SearchSteps="FuzzySelector, Image">
                                 <uix:TargetAnchorable.Anchors>
@@ -170,7 +170,7 @@
                               </uix:TargetAnchorable>
                             </uix:NClick.Target>
                           </uix:NClick>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="526,218" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Text="[productCode+&quot;[k(enter)]&quot;]" Version="V1">
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT search'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="526,216" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Text="[productCode+&quot;[k(enter)]&quot;]" Version="V1">
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="https://www.bricodepot.ro/" DesignTimeRectangle="454, 93, 790, 40" ElementType="InputBox" FriendlyName="'INPUT search'" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='text' aaname='Caută' /&gt;" Guid="ad9fd9b5-7e63-45c4-b0fa-f9873a5b64e1" ImageBase64="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" InformativeScreenshot="00e388bf683d0c196d25cb15a04ef970.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='85636114' title='Brico Dépôt - It&amp;apos;s good to be home. - Brico Dépôt' /&gt;" SearchSteps="FuzzySelector, Image">
                                 <uix:TargetAnchorable.Anchors>
@@ -181,21 +181,21 @@
                               </uix:TargetAnchorable>
                             </uix:NTypeInto.Target>
                           </uix:NTypeInto>
-                          <Sequence sap:VirtualizedContainerService.HintSize="526,3309" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                          <Sequence sap:VirtualizedContainerService.HintSize="526,3276" sap2010:WorkflowViewState.IdRef="Sequence_3">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
-                            <Sequence sap:VirtualizedContainerService.HintSize="484,697" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                            <Sequence sap:VirtualizedContainerService.HintSize="484,690" sap2010:WorkflowViewState.IdRef="Sequence_13">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
-                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,603" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                              <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,596" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                                 <TryCatch.Try>
-                                  <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Caută'" sap:VirtualizedContainerService.HintSize="334,157" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Version="V1">
+                                  <uix:NGetText ContinueOnError="True" DisplayName="Get Text 'Caută'" sap:VirtualizedContainerService.HintSize="334,156" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="892c6a15-58c2-4b9e-9ac5-b2034e8e31a9" Version="V1">
                                     <uix:NGetText.Target>
                                       <uix:TargetAnchorable BrowserURL="https://www.bricodepot.ro/catalogsearch/result/?q=101291156" DesignTimeRectangle="625, 747, 197, 34" FriendlyName="'48000lei /buc'" FullSelectorArgument="&lt;webctrl aaname=' ' css-selector='body&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ol&amp;gt;li&amp;gt;div&amp;gt;div&amp;gt;div' tag='DIV' innertext='  48000lei   /buc  ' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname=' ' type='' tag='DIV' /&gt;" Guid="e95c42eb-6d16-4752-ad3c-d6592dd2f1d8" InformativeScreenshot="f7a228ad39ba2803b9994b65afa20400.png" ScopeSelectorArgument="&lt;html app='msedge.exe' htmlwindowname='54753648' title='Caută - Brico Dépôt' /&gt;" SearchSteps="FuzzySelector">
                                         <uix:TargetAnchorable.Anchors>
@@ -211,10 +211,10 @@
                                   </uix:NGetText>
                                 </TryCatch.Try>
                                 <TryCatch.Catches>
-                                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,132" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                                  <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,130" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
@@ -222,13 +222,13 @@
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                       </ActivityAction.Argument>
-                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,62" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="[exception.Message]" />
+                                      <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_8" Text="[exception.Message]" />
                                     </ActivityAction>
                                   </Catch>
                                 </TryCatch.Catches>
                               </TryCatch>
                             </Sequence>
-                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="484,610" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="484,604" sap2010:WorkflowViewState.IdRef="TryCatch_3">
                               <TryCatch.Try>
                                 <ui:InvokeCode ContinueOnError="{x:Null}" Code="Dim matches As MatchCollection = Regex.Matches(price, &quot;\d*,*\d+(\.\d*)?&quot;)&#xA;If matches.Count &gt;= 2 Then&#xA;  secondNumber = matches(1).Value&#xA; Else&#xA;&#x9; secondNumber = matches(0).Value&#xA;End If&#xA;" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,164" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
                                   <ui:InvokeCode.Arguments>
@@ -238,10 +238,10 @@
                                 </ui:InvokeCode>
                               </TryCatch.Try>
                               <TryCatch.Catches>
-                                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,132" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+                                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,130" sap2010:WorkflowViewState.IdRef="Catch`1_3">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
@@ -249,12 +249,12 @@
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                     </ActivityAction.Argument>
-                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,62" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="[exception.Message]" />
+                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_9" Text="[exception.Message]" />
                                   </ActivityAction>
                                 </Catch>
                               </TryCatch.Catches>
                             </TryCatch>
-                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="484,507" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="484,501" sap2010:WorkflowViewState.IdRef="TryCatch_4">
                               <TryCatch.Try>
                                 <Assign sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="Assign_4">
                                   <Assign.To>
@@ -266,10 +266,10 @@
                                 </Assign>
                               </TryCatch.Try>
                               <TryCatch.Catches>
-                                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,132" sap2010:WorkflowViewState.IdRef="Catch`1_4">
+                                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,130" sap2010:WorkflowViewState.IdRef="Catch`1_4">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
@@ -277,14 +277,14 @@
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                     </ActivityAction.Argument>
-                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,62" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="[exception.Message]" />
+                                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_10" Text="[exception.Message]" />
                                   </ActivityAction>
                                 </Catch>
                               </TryCatch.Catches>
                             </TryCatch>
-                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="484,793" sap2010:WorkflowViewState.IdRef="TryCatch_5">
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="484,783" sap2010:WorkflowViewState.IdRef="TryCatch_5">
                               <TryCatch.Try>
-                                <Assign sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="Assign_8">
+                                <Assign DisplayName="Assign" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_8">
                                   <Assign.To>
                                     <OutArgument x:TypeArguments="x:Double">[verify]</OutArgument>
                                   </Assign.To>
@@ -294,10 +294,10 @@
                                 </Assign>
                               </TryCatch.Try>
                               <TryCatch.Catches>
-                                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,418" sap2010:WorkflowViewState.IdRef="Catch`1_5">
+                                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,413" sap2010:WorkflowViewState.IdRef="Catch`1_5">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
@@ -305,19 +305,19 @@
                                     <ActivityAction.Argument>
                                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                     </ActivityAction.Argument>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="346,348" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="346,344" sap2010:WorkflowViewState.IdRef="Sequence_23">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="304,255" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="304,252" sap2010:WorkflowViewState.IdRef="Sequence_22">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Assign sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="Assign_9">
+                                        <Assign DisplayName="increment badCode" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_9">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:Int32">[badCodes]</OutArgument>
                                           </Assign.To>
@@ -325,7 +325,7 @@
                                             <InArgument x:TypeArguments="x:Int32">[badCodes+1]</InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <Assign sap:VirtualizedContainerService.HintSize="262,61" sap2010:WorkflowViewState.IdRef="Assign_10">
+                                        <Assign DisplayName="Assign" sap:VirtualizedContainerService.HintSize="262,60" sap2010:WorkflowViewState.IdRef="Assign_10">
                                           <Assign.To>
                                             <OutArgument x:TypeArguments="x:String">[price]</OutArgument>
                                           </Assign.To>
@@ -341,7 +341,7 @@
                                 </Catch>
                               </TryCatch.Catches>
                             </TryCatch>
-                            <If Condition="[price.Length&gt;2]" sap:VirtualizedContainerService.HintSize="484,346" sap2010:WorkflowViewState.IdRef="If_5">
+                            <If Condition="[price.Length&gt;2]" sap:VirtualizedContainerService.HintSize="484,343" sap2010:WorkflowViewState.IdRef="If_5">
                               <If.Then>
                                 <Sequence sap:VirtualizedContainerService.HintSize="304,155" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                   <sap:WorkflowViewStateService.ViewState>
@@ -360,7 +360,7 @@
                                 </Sequence>
                               </If.Then>
                             </If>
-                            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484,62" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[finalPrice]" />
+                            <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="484,61" sap2010:WorkflowViewState.IdRef="WriteLine_7" Text="[finalPrice]" />
                           </Sequence>
                         </Sequence>
                       </ActivityAction>
@@ -372,7 +372,7 @@
                 </Sequence>
               </TryCatch.Try>
               <TryCatch.Catches>
-                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="648,132" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="648,130" sap2010:WorkflowViewState.IdRef="Catch`1_1">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -383,7 +383,7 @@
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                     </ActivityAction.Argument>
-                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,62" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="[exception.Message]" />
+                    <WriteLine DisplayName="Write Line" sap:VirtualizedContainerService.HintSize="230,61" sap2010:WorkflowViewState.IdRef="WriteLine_11" Text="[exception.Message]" />
                   </ActivityAction>
                 </Catch>
               </TryCatch.Catches>
